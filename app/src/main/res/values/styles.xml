@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/redDark</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="icon">?colorPrimaryDark</item>
+    </style>
+
+    <!--  Restaurant Card  -->
+    <style name="textRestaurant">
+        <item name="android:textColor">?colorAccent</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="textRestaurantName" parent="textRestaurant">
+        <item name="android:textSize">@dimen/textSizeLarge</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textRestaurantDescription" parent="textRestaurant">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:maxLines">2</item>
+    </style>
+
+    <style name="textRestaurantStatus" parent="textRestaurant">
+        <item name="android:textColor">@color/greyDark</item>
+    </style>
+
+</resources>

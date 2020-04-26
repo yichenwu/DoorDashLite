@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DoorDashLite</string>
+
+    <!--   Discover screen  -->
+    <string name="discover">Discover</string>
+    <string name="empty_message">Sorry, there is no restaurants available now…</string>
+    <string name="error_message">Looks like sth is wrong…</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">Cancel</string>
+
+    <!--    Restaurant card  -->
+    <string name="restaurant_image_description">restaurant cover image</string>
+</resources>
